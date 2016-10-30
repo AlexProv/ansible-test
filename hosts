@@ -1,0 +1,5 @@
+slave1 ansible_ssh_host=192.207.61.217
+slave2 ansible_ssh_host=192.207.61.222
+
+[dev]
+slave1

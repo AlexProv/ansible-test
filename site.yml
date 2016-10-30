@@ -1,0 +1,7 @@
+---
+- name: Install all the packages and stuff
+  hosts: dev
+  sudo: yes
+  roles:
+   - common
+   - redis
